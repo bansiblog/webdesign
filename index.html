@@ -1,58 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a772ee4dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="icon" type="image/png" href="img/logo2.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png" />
     <link rel="stylesheet" href="css/style.css">
 
-    <title class="mx-auto">Fashion website</title>
+    <title class="mx-auto">Summer Hub</title>
 </head>
+
 <body>
-    <header>
+    <!-- <header><br />
         <nav class="navbar navbar-expand-lg navigation-wrap">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="img/logo.png" width="100px" height="100px" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-               aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="fa-brands fa-accusoft"></i> 
-             </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active mr-5 mb-2 p-3" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mr-5 mb-2 p-3" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mr-5 mb-2 p-3" href="#product">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link mr-5 mb-2 p-3" href="#faq">FAQ</a>
-                  </li>
-                  <li><button class="main-btn ">Shop Now</button></li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" width="150" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mr-5 mb-2 p-3 text-secondary fw-bold" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-5 mb-2 p-3 text-secondary fw-bold" href="#about">Clothing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-5 mb-2 p-3 text-secondary fw-bold" href="#product">Bath Tub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-5 mb-2 p-3 text-secondary fw-bold" href="#faq">Gears</a>
+                        </li>
+                        <div class="search">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                              </div>  
+                        <button class="main-btn "><a class="text-white fw-bold">Contact Us</a></button>
+                    </ul>
+                  </div>
             </div>
-          </nav>
+              
+        </nav>
+    </header> --><br/>
+    <header class="header">
+      <div class="header-inner">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg my-navbar">
+      <a class="navbar-brand" href="#"><span class="logo">
+        <img src="img/logo.png" class="img-fluid" style="width:150px; margin:-3px 0px 0px 0px;"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="margin:5px 0px 0px 0px;"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+     
+            <li class="nav-item">
+            <a class="nav-link" href="#">Clothing</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bath Tub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gears</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </li>
+        
+        </ul>
+        
+          <button class="main-btn" type="submit">Contact Us</button>
+     
+      </div>
+    </nav>
+    
+        </div>
+      </div>
+    
+    
     </header>
+    <!-- <div class="container">
+    <nav>
+      <label class="toggle">
+        <i class="fa fa-bars"></i></label>
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">home</a></li>
+        <li><a href="">home</a></li>
+        <li><a href="">home</a></li>
+        <li><a href="">home</a></li>
+      </ul>
+      <div class="socialtop">
+        <div class="top-social">
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" ></script>
+<script>
+$('.toggle i').click(function(){
+  $('ul').toggleClass('show')
+})
+
+	
+</script> --><br/>
+  </div>
+    <!-- Slider part  -->
+    <section class="home">
+     
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-controls">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"
+                            style="background-image:url('img/1.jpg')"></li>
+                        <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/2.jpg')"></li>
+                        <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/3.jpg')"></li>
+
+                    </ol>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <img src="img/left-arrow.svg" alt="Prev">
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <img src="img/right-arrow.svg" alt="Next">
+                    </a>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image:url('img/1.jpg')">
+                        <div class="container">
+
+                            <!-- <p>Web Developer</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('img/2.jpg')">
+                        <div class="container">
+
+                            <!-- <p>Web Developer</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('img/3.jpg')">
+                        <div class="container">
+
+                            <!-- <p>Web Developer</p> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div><br />
+
+    </section>
+    <!-- cart part  -->
+
+    
+    <div class="container">
+       <h1>All Products</h1><br/>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                
+              <img src="/img/3.jpg" class="card-img-top" alt="..." height="300"> 
+              <button type="button" class="bn"><h6 class="discount">50%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                 
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/4.jpg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">73%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                   
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/5.jpeg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">80%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+        <!-- 2 part  -->
+        <div class="col">
+            <div class="card">
+              <img src="/img/6.jpeg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">75%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/7.jpeg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">70%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/8.jpeg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">72%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <!-- 3 part  -->
+          <div class="col">
+            <div class="card">
+              <img src="/img/9.jpeg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">78%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/10.jpg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">79%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/12.jpg" class="card-img-top" alt="..." height="300">
+              <button type="button" class="bn"><h6 class="discount">70%</h6></button>
+              <div class="card-body text-center">
+                  <h5 class="card-title">
+                      Washing Tub
+                  </h5>
+                  <p class="card-text">
+                      Heart Home Disney Team Mickey Print Unbreakable Plastic Multipurpose Bath Tub/Washing Tub 25
+                      Ltr (White) -
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <span class="textspan">Rs.1,999</span> 
+                      </div>
+                      <div class="col-sm">
+                        <span class="text-span-2">₹199</span> 
+                      </div>
+                      <div class="col-sm">
+                        <button class="cart-btn ">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+
+
+
+    </div>
+   
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <!-- <span>Get connected with us on social networks:</span> -->
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="fluid-container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Summer HUB
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Teddy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Toys</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Gears</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Tricycle</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Privacy policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Surat, NY 10012, Gujarat</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <br/> <br/> <br/> <br/> <br/>
+          <div class="payment">
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+           
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">summerhub.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
 </html>
-<!-- 
-1.) git config --global user.name ""
-2.) git config --global user.email "" 
-3.) git clone (Website Link)
-4.) cd (Folder Name)
-5.) git status
-6.) git add .
-7.) git commit -m ""
-8.) git push origin master -->
