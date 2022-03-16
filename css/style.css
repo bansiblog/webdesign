@@ -495,9 +495,28 @@ color: white;}
 }
 .payment:hover{
 	color: white;
+	
     
 }
 /* add  */
+.count-class{
+	font-size: 15px;
+	height: 30px;
+	width: 30px;
+	color: white;
+	background: #1C6DD0;
+	text-align: center;
+	line-height: 30px;
+margin-left: -40px;
+
+	border-radius: 50%;
+}
+.shoppingcart{
+	color: #1C6DD0;
+	font-size: 30px;
+}
+
+/* select  */
 
 
 
